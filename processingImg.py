@@ -12,7 +12,7 @@ PROCESSED_DIRECTORY = './static/processes'
 # ディレクトリ監視用のイベントハンドラ
 class CustomHandler(FileSystemEventHandler):
     def on_modified(self, event):
-        print("fdsjklsdfjkldsfjkldfsjkldfsjklsdf")
+        
 
         # ディレクトリ内のファイルをリストアップ
         image_files = [f for f in os.listdir(event.src_path) if os.path.isfile(os.path.join(event.src_path, f)) and f.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp'))]
