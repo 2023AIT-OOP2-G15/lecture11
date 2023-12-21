@@ -11,7 +11,58 @@
 |画像処理|西田拓磨(k21092)|顔検出してモザイク|
 
 #　決め事
-- 加工した画像は ../static/uploads/xxx.png に保存してください
+```
+lecture11
+├─ static
+│   ├─ style.css
+│   ├─ original
+│   │    ├─ Mosaic
+│   │    ├─ Frame
+│   │    ├─ Carry
+│   │    ├─ Grayscale
+│   │
+│   └─ uploads
+│        ├─ Mosaic
+│        ├─ Frame
+│        ├─ Carry
+│        ├─ Grayscale
+│
+├─ temolates
+│   └─ index.html
+│
+├─ function
+│   ├─ MosaicImg.py
+│   ├─ FrameImg.py
+│   ├─ CarryImg.py
+│   ├─ GrayscaleImg.py
+│
+├─ main.py
+├─ README.md
+├─ .DS_Store
+├─ .python-version
+├─ 
+
+```
+- 加工した画像は ../static/uploads/xxx/xxx.png に保存してください
+Mosaic = モザイク画像
+Frame  = 枠
+Carry  = Carryフィルタ
+Grayscale = グレースケール
+
+- 保存した加工前の画像は ../static/original/xxx/xxx.png に保存してください
+Mosaic = モザイク画像
+Frame  = 枠
+Carry  = Carryフィルタ
+Grayscale = グレースケール
+
+- 関数名
+モザイク画像 MosaicImg
+枠 FrameImg
+Carryフィルタ CarryImg
+グレースケール　GrayscaleImg
+
+
+
 
 ## システムの動作確認方法
 ここからmainを確認できます
