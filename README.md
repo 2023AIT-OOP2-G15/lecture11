@@ -16,7 +16,8 @@
 lecture11
 ├─ static
 │   ├─ style.css
-│   ├─ original
+│   │
+│   ├─ processed
 │   │    ├─ Mosaic
 │   │    ├─ Frame
 │   │    ├─ Carry
@@ -50,13 +51,19 @@ Frame  = 枠
 Carry  = Carryフィルタ
 Grayscale = グレースケール
 
-- 保存した加工前の画像は ../static/original/xxx/xxx.png に保存してください
+- 保存した加工前の画像は ../static/processed/xxx/xxx.png に保存してください
 Mosaic = モザイク画像
 Frame  = 枠
 Carry  = Carryフィルタ
 Grayscale = グレースケール
 
 - 関数名
+モザイク画像 MosaicImg()
+枠 FrameImg()
+Carryフィルタ CarryImg()
+グレースケール　GrayscaleImg()
+
+- 画像名
 モザイク画像 MosaicImg
 枠 FrameImg
 Carryフィルタ CarryImg
