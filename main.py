@@ -49,6 +49,7 @@ def upload_file():
 
         file_path = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
         file.save(file_path)
+        print(f"Uploaded: {file.filename}")
         return render_template('index.html', filename=file.filename)
 
     return redirect(request.url)
